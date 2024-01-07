@@ -9,10 +9,14 @@
   margin: 50px auto;
 }
 .banner {
+  border-radius: 16px;
+  background-color: rgba(116, 116, 116, 0.608);
   background-image: url("../images/Banner\ Image.png");
+  background-blend-mode:multiply;
   background-repeat: no-repeat;
   text-align: center;
-  padding: 177px;
+  padding-top: 200px;
+  padding-bottom: 160px;
 }
 .banner h4 {
   color: #fff;
