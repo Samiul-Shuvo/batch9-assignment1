@@ -10,9 +10,8 @@
 }
 .banner {
   border-radius: 16px;
-  background-color: rgba(116, 116, 116, 0.608);
-  background-image: url("../images/Banner\ Image.png");
-  background-blend-mode:multiply;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Banner\ Image.png");
   background-repeat: no-repeat;
   text-align: center;
   padding-top: 200px;
@@ -30,4 +29,75 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 95px;
+}
+/* Main Sections */
+/* Offer sections */
+.offers {
+  text-align: center;
+  margin-top: 120px;
+}
+.offers h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+}
+
+.offers p {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+.offers h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.mid-night {
+  max-width: 65%;
+  margin: 50px auto;
+  margin-top: 120px;
+  text-align: center;
+}
+.mid-night-bg {
+  display: flex;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+}
+.mid-party-description{
+    padding: 126px;
+}
+.mid-party-description h1 {
+    text-align: center;
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+.mid-party-description p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+justify-content: center;
+  font-weight: 400;
+  line-height: 30px;
+}
+.mid-party-description h5{
+    margin-top: 48px;
+    color: #FFF;
+text-align: left;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
 }
