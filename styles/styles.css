@@ -172,37 +172,198 @@
   font-size: 24px;
   font-weight: 500;
 }
-.coming-soon-details h3{
+.coming-soon-details h3 {
   color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-text-transform: capitalize;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
 }
-.coming-soon-details p{
-  color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px; /* 160% */
+.coming-soon-details p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
 }
-.coming-soon-2nd-details h2{
-color: #F00;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-
+.coming-soon-2nd-details h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
 }
-.coming-soon-2nd-details p{
-  color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px;
+.coming-soon-2nd-details p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
 }
-.coming-soon-img img{
+.coming-soon-img img {
   gap: 200px;
   border-radius: 463px;
-border: 15px solid #F00;
+  border: 15px solid #f00;
+}
+.fifty-off {
+  text-align: center;
+  padding: 0px 200px 0px 200px;
+  margin: 120px 200px 0px 200px;
+}
+.fifty-off h6 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.fifty-off h4 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 62px;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+.holiday {
+  color: #f00;
+}
+.fifty-off p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 64px;
+}
+.lal-img {
+  background-image: url("../images/Rectangle\ 2.png");
+  height: 229px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  background-position: bottom center;
+  padding: 10em;
+  position: absolute;
+}
+.img-one {
+  margin: 0 0 0px 100px;
+}
+.gift {
+  margin-right: 20000x;
+}
+.awsome-prt {
+  text-align: left;
+  /* padding: 100px 300px 0px 300px; */
+  max-width: 60%;
+  margin-left: 17%;
+  margin-top: 120px;
+}
+.awsome-prt h6 {
+  margin-bottom: 26px;
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.awsome-prt h4 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.awsome-prt p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.uporer-line {
+  margin: 4px;
+}
+
+.onek-pic {
+  margin-top: 48px;
+  margin-left: 17%;
+  max-width: 65%;
+}
+.custom-size {
+  width: 380px;
+  height: 400px;
+  max-width: 70%;
+  margin: 10px;
+  border-radius: 16px;
+}
+/* Message section */
+.message-details {
+  text-align: center;
+  margin-top: 120px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 100px 300px 200px 300px;
+}
+.msg-size {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+#subscribe {
+  color: #070211;
+  font-size: 38px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+.message-details p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 48px;
+}
+.mail-size {
+  padding: 25px 250px 25px 30px;
+  border-radius: 50px 0px 0px 50px;
+  /* border-top-right-radius: 50px; */
+  background: #fff;
+  border: none;
+  font-size: 20px;
+}
+.sub-btn {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  padding: 25px 50px 25px 50px;
+  border: none;
+}
+.mail-btn {
+  display: flex;
+}
+/* footer section */
+.pa-pa {
+  background-color: rgb(156, 154, 154);
+  display: flex;
+  max-width: 100%;
+  margin: 50px auto;
+  margin-top: 120px;
+}
+.all-foot{
+  text-align: center;
+}
+.address-1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
 }
