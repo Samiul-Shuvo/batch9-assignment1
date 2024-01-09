@@ -159,7 +159,7 @@
 /* Comming Soon Offera */
 .coming-soon-info {
   display: flex;
-  max-width: 65%;
+  max-width: 67%;
   margin: 50px auto;
   margin-top: 120px;
   text-align: left;
@@ -191,6 +191,7 @@
   font-family: Inter;
   font-size: 48px;
   font-weight: 700;
+  margin-bottom: 14px;
 }
 .coming-soon-2nd-details p {
   color: rgba(7, 2, 17, 0.6);
@@ -199,11 +200,12 @@
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+  margin-bottom: 35px;
 }
 .coming-soon-img img {
-  gap: 200px;
+  padding: 20px;
   border-radius: 463px;
-  border: 15px solid #f00;
+  border: 10px solid #f00;
 }
 .fifty-off {
   text-align: center;
@@ -244,6 +246,28 @@
   background-position: bottom center;
   padding: 10em;
   position: absolute;
+}
+/* Optional Pera Images */
+.pera-img{
+  text-align: center;
+}
+.discount{
+  position: relative;
+  right: 72px;
+  top: 5px;
+  border-radius: 16px 16px 0px 0px;
+}
+.gift-box{
+  position: relative;
+  top: 200px;
+  right: -80px;
+  width: 38%;
+}
+.group-44{
+  position: relative;
+  z-index: 1;
+  top:-27px;
+  right: -45px;
 }
 .img-one {
   margin: 0 0 0px 100px;
@@ -380,7 +404,7 @@
   margin-bottom: 100px;
 }
 .social-img{
-  margin: 240px 120px;
+  margin: 150px 120px;
 }
 .contact{
   margin-top: 100px;
@@ -402,7 +426,8 @@ font-weight: 500;
 }
 .line{
  margin-bottom: 40px;
+ margin-top: 40px;
  color: #FFFFFF26;
+ border-color: #FFFFFF26;
  background: rgba(255, 255, 255, 0.15);
- border: none;
 }
