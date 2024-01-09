@@ -355,7 +355,7 @@
   max-width: 100%;
   margin: 50px auto;
   margin-top: 120px;
-  padding-left: 17%;
+  padding-left: 19%;
 }
 .all-foot {
   text-align: center;
@@ -399,4 +399,10 @@ color: #FFF;
 font-family: Inter;
 font-size: 18px;
 font-weight: 500;
+}
+.line{
+ margin-bottom: 40px;
+ color: #FFFFFF26;
+ background: rgba(255, 255, 255, 0.15);
+ border: none;
 }
